@@ -4,16 +4,12 @@
 :root {
   --background-gradient: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,41,56,1) 100%);
   --background-color: rgb(0, 8, 12);
-  --container-color: rgb(0, 21, 31);
-  --container-hover-color: rgb(0, 47, 68);
-  --container-hover-color-2: rgb(0, 63, 92);
-  --container-hover-color-3: rgba(0, 63, 92, 0.925);
+  --ups-color: rgb(198,234,255);
+  --ups-dark: rgb(178,174,226);
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  background: rgb(0,0,0);
-  background: var(--background-gradient);
   background-repeat: no-repeat;
 }
 

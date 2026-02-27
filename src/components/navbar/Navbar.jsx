@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 
 import "./navbar.css"
 import { useLocation } from 'react-router-dom';
-//Electricity Market Advisory Services
-
 export default function Navbar() {
 
   const Menu = () => (
@@ -12,9 +10,9 @@ export default function Navbar() {
         <div>
             <a href="../">Home</a>
         </div>
-        <div>
+        {/* <div>
           <a href="../Events">Events</a>
-        </div>
+        </div> */}
         <div>
           <a href="../Our-Sponsors">Our Sponsors</a>
         </div>

@@ -1,0 +1,24 @@
+.ups__home-header {
+    margin: 0;
+    padding: 20rem 0;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../assets/header.jpg");
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ups__home-header h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.ups__home-header p, i {
+    color: white;
+    font-size: 2rem;
+}
+
+.ups__home-header_container {
+    padding: 0 25rem;
+}

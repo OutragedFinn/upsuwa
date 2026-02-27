@@ -1,0 +1,4 @@
+.ups__footer {
+    padding: 15rem;
+    background: linear-gradient(to bottom, white, var(--ups-dark));
+}
