@@ -16,13 +16,13 @@ export default function Info() {
                 <button>Sign up for an Annual Membership!</button>
             </div>
             <div className='ups__home-info_container-icons'>
-                <a href="https://instagram.com" target="_blank" rel="noopener">
+                <a href="https://instagram.com/upsuwa/" target="_blank" rel="noopener">
                     <img src="/assets/instagram.svg" alt="Instagram"/>
                 </a>
-                <a href="https://discord.com" target="_blank" rel="noopener">
+                <a href="https://discord.com/invite/AZZyMqB" target="_blank" rel="noopener">
                     <img src="/assets/discord.svg" alt="Discord"/>
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noopener">
+                <a href="https://facebook.com/UPSuwa/" target="_blank" rel="noopener">
                     <img src="/assets/facebook.svg" alt="Facebook"/>
                 </a>
             </div>
