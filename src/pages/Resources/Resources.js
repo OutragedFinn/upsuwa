@@ -1,11 +1,15 @@
 import React from 'react'
-import { Navbar } from '../../components';
-// import { Header } from '../Home'
+import Navbar from '../../components/navbar/Navbar';
+import Footer from '../../components/footer/Footer'
+import { Guides, Clubroom } from '../Resources'
 
 export default function Resources() {
   return (
-    <div className="Resources">
+    <div className="ups__resources">
       <Navbar />
+      <Guides />
+      <Clubroom />
+      <Footer />
     </div>
   )
 }

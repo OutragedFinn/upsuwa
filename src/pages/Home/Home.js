@@ -1,5 +1,6 @@
 import React from 'react'
-import { Navbar, Footer } from '../../components';
+import Navbar from '../../components/navbar/Navbar';
+import Footer from '../../components/footer/Footer'
 import { Header, Info, Photos } from '../Home'
 
 export default function Home() {
