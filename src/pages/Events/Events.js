@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar';
+import Socials_bar from '../../components/socials_bar/Socials_bar';
 import Footer from '../../components/footer/Footer';
 import { Info } from '../Events';
 
@@ -8,6 +9,7 @@ export default function Events() {
     <div className="Events">
       <Navbar />
       <Info />
+      <Socials_bar />
       <Footer />
       
     </div>
