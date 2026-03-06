@@ -63,9 +63,32 @@
 .emas__navbar-links_menu a:hover {
   color: #aaa;
 }
+.emas__navbar-hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
 @media (max-width: 768px) {
-    .emas__navbar-links {
-        display: none;
-    }
+  .emas__navbar-hamburger {
+    display: block;
+  }
+  .emas__navbar-links {
+    display: none;
+  }
+  .emas__navbar-links.open {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .emas__navbar-links_menu {
+    flex-direction: column;
+}
 }
