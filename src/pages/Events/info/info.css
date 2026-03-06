@@ -1,0 +1,16 @@
+.ups__home-info {
+    display: flex;
+}
+
+.ups__home-info_container {
+    padding: 5rem 10rem;
+}
+
+.ups__home-info_container h1 {
+    font-size: 2.5rem;
+}
+
+.ups__home-info_container p {
+    font-size: 1.3rem;
+    text-align: left;
+}

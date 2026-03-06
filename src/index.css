@@ -13,9 +13,14 @@ body {
   background-repeat: no-repeat;
 }
 
-body a {
+body a:link {
   text-decoration: none;
-  color: white;
+  color: gray;
+  cursor: pointer;
+}
+body a:hover {
+  text-decoration: none;
+  color: lightgray;
   cursor: pointer;
 }
 

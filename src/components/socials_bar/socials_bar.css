@@ -1,0 +1,16 @@
+.ups__home-info_container-icons {
+    margin-top: 3rem;
+    display: flex;        
+  gap: 1.5rem;          
+  justify-content: center; 
+  align-items: center;    
+}
+
+.ups__home-info_container-icons img {
+  width: 40px;          /* icon size */
+  height: 40px;
+  transition: transform 0.2s;
+}
+.ups__home-info_container-icons svg {
+    color: green;
+}

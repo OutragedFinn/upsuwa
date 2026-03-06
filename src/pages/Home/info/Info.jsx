@@ -2,6 +2,8 @@
 import {useState, React, useEffect } from 'react'
 import "./info.css"
 
+import Socials_bar from '../../../components/socials_bar/Socials_bar';
+
 export default function Info() {
 
   return (
@@ -15,7 +17,8 @@ export default function Info() {
             <div className='ups__home-info_container-button'>
                 <button>Sign up for an Annual Membership!</button>
             </div>
-            <div className='ups__home-info_container-icons'>
+            <Socials_bar />
+            {/* <div className='ups__home-info_container-icons'>
                 <a href="https://instagram.com/upsuwa/" target="_blank" rel="noopener">
                     <img src="/assets/instagram.svg" alt="Instagram"/>
                 </a>
@@ -25,7 +28,7 @@ export default function Info() {
                 <a href="https://facebook.com/UPSuwa/" target="_blank" rel="noopener">
                     <img src="/assets/facebook.svg" alt="Facebook"/>
                 </a>
-            </div>
+            </div> */}
         </div>
     </div>
   )
