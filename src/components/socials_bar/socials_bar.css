@@ -1,4 +1,4 @@
-.ups__home-info_container-icons {
+.ups__socials {
     margin-top: 3vh;
     display: flex;        
   gap: 10vw;          
@@ -6,11 +6,8 @@
   align-items: center;    
 }
 
-.ups__home-info_container-icons img {
+.ups__socials img {
   width: 40px;          /* icon size */
   height: 40px;
   transition: transform 0.2s;
-}
-.ups__home-info_container-icons svg {
-    color: green;
 }
