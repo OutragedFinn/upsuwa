@@ -5,8 +5,8 @@ import "./info.css"
 export default function Info() {
 
   return (
-    <div className='ups__home-info'>
-        <div className='ups__home-info_container'>
+    <div className='ups__events-info'>
+        <div className='ups__events-info_container'>
             <div>
                 <h1>Events and activities</h1>
                 <p>UPS regularly runs numerous events, including ping-pong tournaments, study nights, star-gazing, physics demonstrations, guest lectures, and quiz nights. Some of our most iconic annual events are the Profs and Pints night, where you can get to know your professors in a more casual setting, and our end of year Cocktail Night, to celebrate completing our toils for the year.</p>

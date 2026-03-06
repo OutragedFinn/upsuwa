@@ -5,7 +5,7 @@ import "./socials_bar.css"
 export default function Socials_bar() {
 
     return (
-    <div className='ups__home-info_container-icons'>
+    <div className='ups__socials'>
         <a href="https://instagram.com/upsuwa/" target="_blank" rel="noopener">
             <img src="/assets/instagram.svg" alt="Instagram"/>
         </a>

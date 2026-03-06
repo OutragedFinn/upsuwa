@@ -60,9 +60,15 @@
   font-weight: bold;
 }
 
+.emas__navbar-links_menu a:visited {
+  color: black;
+}
 .emas__navbar-links_menu a:hover {
   color: #aaa;
 }
+
+
+
 .emas__navbar-hamburger {
   display: none;
   font-size: 1.5rem;
