@@ -6,6 +6,8 @@ export default function Navbar() {
 
   const Menu = () => (
     <>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    
     <div className='emas__navbar-links_menu'>
         <div>
             <a href="../">Home</a>
