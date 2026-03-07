@@ -1,6 +1,6 @@
 .ups__home-header {
     margin: 0;
-    padding: clamp(8rem, 16vw, 20rem) 0 clamp(4rem, 8vw, 10rem);
+    padding: clamp(8rem, 12vw, 20rem) 0 clamp(4rem, 6vw, 10rem);
     background:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("../../../assets/header.jpg");
