@@ -3,7 +3,7 @@
 }
 
 .ups__events-info_container {
-    padding: 5rem 16rem;
+    padding: 1rem 16rem;
 }
 
 .ups__events-info_container h1 {
@@ -13,4 +13,15 @@
 .ups__events-info_container p {
     font-size: 1rem;
     text-align: left;
+}
+.ups__events-info_container a:is(a, :visited) {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+
+.ups__events-info_container a:hover {
+  text-decoration: none;
+  color: lightgray;
+  cursor: pointer;
 }

@@ -13,28 +13,26 @@
 html {
     font-size: clamp(12px, 1.5vw, 24px);
     margin: 0;
+
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-repeat: no-repeat;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
 }
 
-body a:link {
+
+body a {
   text-decoration: none;
-  color: gray;
   cursor: pointer;
 }
 body a:visited {
-  text-decoration: none;
-  color: gray;
-  cursor: pointer;
-}
-body a:hover {
-  text-decoration: none;
-  color: lightgray;
-  cursor: pointer;
+  color: inherit
 }
 
 .scale-up-center {
