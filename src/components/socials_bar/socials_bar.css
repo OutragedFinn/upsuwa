@@ -1,0 +1,13 @@
+.ups__socials {
+    margin-top: 3vh;
+    display: flex;        
+  gap: 10vw;          
+  justify-content: center; 
+  align-items: center;    
+}
+
+.ups__socials img {
+  width: 40px;          /* icon size */
+  height: 40px;
+  transition: transform 0.2s;
+}
