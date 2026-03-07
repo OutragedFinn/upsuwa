@@ -21,20 +21,13 @@ body {
   margin: 0;
 }
 
-body a:link {
+
+body a {
   text-decoration: none;
-  color: gray;
   cursor: pointer;
 }
 body a:visited {
-  text-decoration: none;
-  color: gray;
-  cursor: pointer;
-}
-body a:hover {
-  text-decoration: none;
-  color: lightgray;
-  cursor: pointer;
+  color: inherit
 }
 
 .scale-up-center {

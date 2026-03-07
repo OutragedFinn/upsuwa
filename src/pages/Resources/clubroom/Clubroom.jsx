@@ -7,8 +7,13 @@ export default function Clubroom() {
   return (
     <div className='ups__resources-clubroom'>
         <div className='ups__resources-clubroom_container'>
+            <div className='ups__resources-clubroom_placeholder'>
+              Image coming soon
+            </div>
+            
             <h1>UPS Clubroom</h1>
             <p>The Physics building (Room 2.19) hosts our common room. We have ping pong tables, a kitchen and ample study and lounge space for club members to enjoy.</p>
+            
         </div>
     </div>
   )

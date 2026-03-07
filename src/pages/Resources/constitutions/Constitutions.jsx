@@ -14,12 +14,11 @@ const names = [
 export default function Constitutions() {
   return (
     <div className='ups__resources-constitutions'>
-        <h1>Current Constitution</h1>
+        <h2>Current Constitution</h2>
         <div className='ups__resources-constitutions_link_box'>
             <a>TBA</a>
         </div>
-        <br></br>
-        <h1>Past Constitutions</h1>
+        <h2>Past Constitutions</h2>
         {names.map((doc) => (
             <div key={doc} className='ups__resources-constitutions_link_box'>
                 <a href={`/assets/constitutions/${doc}`} target='_blank'>
