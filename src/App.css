@@ -3,6 +3,16 @@
   width: 100%;
   height: auto;
   padding-top: calc(min(5rem, 75px) + 1rem);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.App > * {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .App-logo {
