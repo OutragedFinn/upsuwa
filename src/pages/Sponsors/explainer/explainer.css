@@ -5,3 +5,9 @@
 .ups__sponsors-explainer p {
     text-align: left;
 }
+
+.ups__sponsors-explainer img {
+    float: left;
+    width: 22rem;
+    height: auto;
+}
