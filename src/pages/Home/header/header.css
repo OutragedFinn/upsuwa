@@ -3,7 +3,7 @@
     padding: clamp(8rem, 12vw, 20rem) 0 clamp(4rem, 6vw, 10rem);
     background:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("../../../assets/header.jpg");
+        url("../../../assets/header.webp");
       background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

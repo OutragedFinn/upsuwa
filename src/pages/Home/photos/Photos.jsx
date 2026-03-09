@@ -7,15 +7,15 @@ import Enlargeable_Image from '../../../components/enlargeable_image/Enlargeable
 export default function Photos() {
 
   const photoList = [
-    "/assets/demos1.jpg",
-    "/assets/freshers1.jpg",
-    "/assets/demos2.jpg",
-    "/assets/demos4.jpg",
-    "/assets/profpints1.jpg",
-    "/assets/astro1.jpg",
-    "/assets/demos3.jpg",
-    "/assets/tea1.jpg",
-    "/assets/freshers2.jpg",
+    "/assets/demos1.webp",
+    "/assets/freshers1.webp",
+    "/assets/demos2.webp",
+    "/assets/demos4.webp",
+    "/assets/profpints1.webp",
+    "/assets/astro1.webp",
+    "/assets/demos3.webp",
+    "/assets/tea1.webp",
+    "/assets/freshers2.webp",
   ]
 
   return (
