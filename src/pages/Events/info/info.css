@@ -27,7 +27,6 @@
 }
 
 .ups__events-info_container img {
-    float: right;
     width: 20rem;
     height: auto;
     margin: 0 1rem 1rem;
@@ -35,10 +34,12 @@
 
 #fresher {
     float: right;
+    margin-right: 0;
 }
 
 #profs {
-    float:left
+    float:left;
+    margin-left: 0;
 }
 
 #o-day-para {

@@ -1,0 +1,22 @@
+.ups__image-enlarged {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* cursor: pointer; */
+}
+
+.ups__image-enlarged.ups__image-enlarged img {
+    float: none;
+    width: auto;
+    height: auto;
+    max-width: 95vw;
+    max-height: 95vh;
+    margin: 0;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+}
