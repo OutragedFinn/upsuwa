@@ -21,9 +21,8 @@ export default function Photos() {
         <div className='ups__home-photos_container'>
            <div className="ups__home-photos_container-photogrid">
                 {photoList.map((pic) => (
-                  <div className='ups__home-photos_container-photogrid-photo'>
+                  <div key={pic} className='ups__home-photos_container-photogrid-photo'>
                       <img src={pic} alt={pic.replace('/assets/', '')}/>
-                            
                   </div>
                 ))}
             </div>
