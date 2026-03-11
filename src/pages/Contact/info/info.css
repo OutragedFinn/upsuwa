@@ -7,9 +7,7 @@
 .ups__contact-info_links a{
     color:gray
 }
-.ups__contact-info_links a:visited{
-    color:darkgray
-}
+
 .ups__contact-info_links a:hover{
     color:lightgray
 }

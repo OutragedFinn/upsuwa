@@ -1,5 +1,8 @@
+.ups__container-signup {
+    margin: 2rem 0 1rem;
+}
 
-.ups__home-info_container-signup a {
+.ups__container-signup a {
     background-color: var(--ups-dark);
     color: white;
     font-weight: bold;
